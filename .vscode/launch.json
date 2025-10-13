@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "NewString",
+            "request": "launch",
+            "mainClass": "Oving7.NewString",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "TextAnalysis",
+            "request": "launch",
+            "mainClass": "Oving6.TextAnalysis",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "TextAnalasys",
+            "request": "launch",
+            "mainClass": "Oving6.TextAnalasys",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "String",
+            "request": "launch",
+            "mainClass": "Forelesninger.StringManipulering.String",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "RandomTable",
+            "request": "launch",
+            "mainClass": "Oving6.RandomTable",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "Oving1",
+            "request": "launch",
+            "mainClass": "Oving1.Oving1",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "LeapYear",
+            "request": "launch",
+            "mainClass": "Oving2.LeapYear",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "kiloPrice",
+            "request": "launch",
+            "mainClass": "Oving2.kiloPrice",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "multiplication",
+            "request": "launch",
+            "mainClass": "Oving3.multiplication",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "primes",
+            "request": "launch",
+            "mainClass": "Oving3.primes",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "primes_done",
+            "request": "launch",
+            "mainClass": "Oving3.primes_done",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "Klient",
+            "request": "launch",
+            "mainClass": "Oving4.Klient",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "Klient_valuta",
+            "request": "launch",
+            "mainClass": "Oving4.Klient_valuta",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "Terningspill",
+            "request": "launch",
+            "mainClass": "Oving4.Terningspill",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "Fractions",
+            "request": "launch",
+            "mainClass": "Oving5.Fractions",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "MyRandom",
+            "request": "launch",
+            "mainClass": "Oving5.MyRandom",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "input",
+            "request": "launch",
+            "mainClass": "input",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        }
+    ]
+}
