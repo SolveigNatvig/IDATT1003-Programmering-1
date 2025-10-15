@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Matrix",
+            "request": "launch",
+            "mainClass": "Oving6.Matrix",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
             "name": "NewString",
             "request": "launch",
             "mainClass": "Oving7.NewString",
