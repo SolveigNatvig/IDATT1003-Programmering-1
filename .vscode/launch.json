@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TextProcessor",
+            "request": "launch",
+            "mainClass": "Oving7.TextProcessor",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "DiaryEntry",
+            "request": "launch",
+            "mainClass": "Mappevurdering_hovedprosjekt.DiaryEntry",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Mappevurdering_hovedprosjekt.Test",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
             "name": "Matrix",
             "request": "launch",
             "mainClass": "Oving6.Matrix",
