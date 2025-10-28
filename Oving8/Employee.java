@@ -5,7 +5,7 @@ public class Employee {
     private final int employeeID;
     private final int yearOfHire;
     private double monthlySalary;
-    private double taxPercentage;
+    public double taxPercentage = 0.22;
 
     public Employee(Person personDetails, int employeeID, int yearOfHire, double monthlySalary, double taxPercentage){
         this.personDetails = personDetails;
@@ -33,11 +33,11 @@ public class Employee {
     }
     
     public double getTaxPercentage(){
-        return this.taxPercentage;
+        return taxPercentage;
     }
 
-    public String getFullName(){ // Noe galt her. hvordan hente navn når det er private i en annen klasse?
-        return this.personDetails.firstName + " " + this.personDetails.lastName;
+    public String getFullName( ){ // Noe galt her. hvordan hente navn når det er private i en annen klasse?
+        return this.personDetails.getFirstName() + " " + this.personDetails.getLastName();
     }
 
     // Set methods
@@ -49,29 +49,40 @@ public class Employee {
         this.taxPercentage = newTaxPercentage;
     } 
 
-    // Other mathods
-    public double calculateMonthlytax(){
-        return 1.1;
+    // Other methods
+    public double calculateMonthlyTax(){
+        return this.monthlySalary*taxPercentage;
     }
 
     public double calculateMonthlyGrossSalary(){
-        return 1.1;
+        return this.monthlySalary;
     }
 
     public double caculateAnnualTax(){
-        return 1.1;
+        return this.calculateMonthlyTax() * 12;
     }
 
-    public int calculateAge(){
-        return 1;
+    public int calculateAge(int year){
+        return year - personDetails.getYearOfBirth();
     }
 
-    public int calculateYearsEmployed(){
-        return 1;
+    public int calculateYearsEmployed(int year){
+        return year - yearOfHire;
     }
 
-    public boolean hasBeenEmployedLongerThan(int year){
-        return true;
+    public boolean hasBeenEmployedLongerThan(int year, Employee other){
+        if (this.calculateYearsEmployed(year) > other.calculateYearsEmployed(year)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public static void main(String Args[]){
+        Person kimPerson = new Person("Kim", "Harris", 2001);
+        Employee kim = new Employee(kimPerson, 0, 0, 0, 0);
+        System.out.println(kim.getFullName());
     }
 
 

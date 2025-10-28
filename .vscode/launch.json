@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Oving8.Employee",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
             "name": "TextProcessor",
             "request": "launch",
             "mainClass": "Oving7.TextProcessor",
