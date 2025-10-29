@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AssignmentOverview",
+            "request": "launch",
+            "mainClass": "Oving9.AssignmentOverview",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Oving9.Student",
+            "projectName": "IDATT1003 Programmering 1_bffebf3a"
+        },
+        {
+            "type": "java",
             "name": "Employee",
             "request": "launch",
             "mainClass": "Oving8.Employee",
