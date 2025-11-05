@@ -22,4 +22,8 @@ public class Person {
     public int getYearOfBirth(){
         return this.yearOfBirth;
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
