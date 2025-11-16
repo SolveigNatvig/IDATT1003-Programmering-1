@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EventRegister",
+            "request": "launch",
+            "mainClass": "IDATT1003_Programmering_1.Oving10.EventRegister",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "AssignmentOverview",
             "request": "launch",
             "mainClass": "Oving9.AssignmentOverview",

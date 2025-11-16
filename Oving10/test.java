@@ -1,3 +1,0 @@
-public class test {
-    //this is just a test :)
-}
